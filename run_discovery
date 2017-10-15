@@ -1,0 +1,6 @@
+#!/bin/sh
+cd /home/pi/discovery
+
+echo "Running identity host..."
+python identity_host.py > identity_log &
+
