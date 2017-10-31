@@ -15,7 +15,7 @@ import netifaces
 
 PORT = 7991
 HOSTS = []
-IP_PREFIXES = ["192.168.", "10.10."]
+IP_PREFIXES = ["192.168.", "10.10.", "10.11."]
 BUFFERS = {}
 CALLBACKS = {}
 

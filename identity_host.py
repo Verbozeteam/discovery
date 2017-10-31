@@ -59,7 +59,9 @@ while 1:
     num_hosts = len(discovery.HOSTS)
     discovery.find_hosts()
     if len(discovery.HOSTS) != num_hosts:
-      try: s.close()
+      try:
+        for s in socks:
+          s.close()
       except: pass
       finally: socks = discovery.OpenHostingSockets()
   except:

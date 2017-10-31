@@ -2,3 +2,10 @@ identity_log
 identity
 *.pyc
 
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
