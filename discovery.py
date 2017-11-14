@@ -20,7 +20,7 @@ from collections import defaultdict
 class PROTOCOL:
     MAGIC = bytearray([0x29, 0xad])
 
-    PORT = 7989
+    PORT = 7991
 
     @staticmethod
     def MAKE_PACKET(type, data):
