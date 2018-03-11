@@ -13,7 +13,7 @@ try:
         content = f.readlines()
         content = list(map(lambda x: x[:-1] if x[-1] == "\n" else x, content))
         if len(content) == 0 or len(content) % 2 != 0:
-            raise
+            raise Exception("Invalid identity file")
         mydesc = []
         for i in range(0, len(content), 2):
             mydesc += [(int(content[i]), str(content[i+1]))]
