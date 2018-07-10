@@ -1,4 +1,4 @@
 from discovery import DiscoveryRequest
 
 dr = DiscoveryRequest()
-dr.run(2)
+dr.run(4)

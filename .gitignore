@@ -9,3 +9,6 @@ identity
 .venv
 venv/
 ENV/
+
+.vscode
+.DS_Store

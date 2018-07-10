@@ -16,6 +16,7 @@ from collections import defaultdict
 #       4 => TV controller
 #       5 => camera
 #       6 => kitchen
+#       7 => Hub
 
 class PROTOCOL:
     MAGIC = bytearray([0x29, 0xad])
