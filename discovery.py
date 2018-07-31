@@ -12,11 +12,12 @@ from collections import defaultdict
 # TYPE: 0 => discovery broadcast
 #       1 => set private info (DEPRICATED)
 #       2 => master server
-#       3 => room controller
+#       3 => middleware (room controller)
 #       4 => TV controller
 #       5 => camera
 #       6 => kitchen
 #       7 => Hub
+#       8 => secure middleware (room controller)
 
 class PROTOCOL:
     MAGIC = bytearray([0x29, 0xad])
